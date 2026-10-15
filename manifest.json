@@ -1,6 +1,6 @@
 {
   "name": "Shape Maker",
-  "id": "shape-maker-local",
+  "id": "1692632045795158530",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
