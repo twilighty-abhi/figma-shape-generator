@@ -1,4 +1,4 @@
-// Generates the Community listing artwork (icon + cover) as HTML, then screenshots it with headless Chrome.
+// Generates the Community listing artwork (cover) as HTML, then screenshots it with headless Chrome.
 const E = require('../src/engine.js');
 const fs = require('fs');
 const path = require('path');
@@ -20,11 +20,7 @@ function shot(name, w, h, html) {
   console.log(`store/${name}.png`);
 }
 
-// Icon (128×128)
-shot('icon', 128, 128, page(128, 128, `
-  <div class="abs" style="inset:0;background:${P.blue}"></div>
-  <div class="abs" style="left:14px;top:18px;width:96px;height:96px">${shape('scallop', 96, P.peach, P.peach, { lobes: 12, depth: 0.16 })}</div>
-  <div class="abs" style="left:70px;top:8px;width:50px;height:50px">${shape('sparkle', 50, P.coral)}</div>`));
+// The icon lives in store/icons.js (npm run store-icons).
 
 // Cover (1920×1080)
 const grid = [
