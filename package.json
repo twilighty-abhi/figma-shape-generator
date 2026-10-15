@@ -2,6 +2,7 @@
   "name": "figma-shape-maker",
   "version": "1.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Figma plugin that generates decorative shapes as editable vectors.",
   "scripts": {
     "build": "node build.js",

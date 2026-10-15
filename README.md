@@ -52,3 +52,7 @@ Figma desktop → main menu → **Plugins → Development → Import plugin from
 - `test/sheet.js` — renders a contact sheet of every type
 - `store/` — listing copy, icon, cover, and the script that renders them
 - `PRIVACY.md` — what the plugin does and doesn't do with data
+
+## License
+
+[MIT](LICENSE) © 2026 twilighty-abhi
