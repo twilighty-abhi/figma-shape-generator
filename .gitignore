@@ -1,0 +1,4 @@
+node_modules/
+test/sheet.html
+.DS_Store
+.claude/

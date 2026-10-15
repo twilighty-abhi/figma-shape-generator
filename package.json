@@ -1,0 +1,14 @@
+{
+  "name": "figma-shape-maker",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Figma plugin that generates decorative shapes as editable vectors.",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch",
+    "test": "node test/fuzz.js && node test/code.test.js",
+    "release": "npm test && node build.js",
+    "sheet": "node test/sheet.js test/sheet.html",
+    "store-art": "node store/render.js"
+  }
+}
