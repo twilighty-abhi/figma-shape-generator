@@ -10,6 +10,7 @@
     "test": "node test/fuzz.js && node test/code.test.js",
     "release": "npm test && node build.js",
     "sheet": "node test/sheet.js test/sheet.html",
-    "store-art": "node store/render.js"
+    "store-art": "node store/render.js",
+    "store-icons": "node store/icons.js"
   }
 }

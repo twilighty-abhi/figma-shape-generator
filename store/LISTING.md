@@ -41,7 +41,7 @@ Design tools (secondary: Illustration)
 shapes, generator, vector, stickers, scatter, background, illustration, decoration, blobs, flowers, badges, pattern
 
 ## Assets
-- Icon (128 × 128): `store/icon.png`
+- Icon (128 × 128): `store/icon.png` (the shape cluster; alternatives in `store/icon-options/`, regenerate with `npm run store-icons`)
 - Cover / thumbnail (1920 × 1080): `store/cover.png`
 - Regenerate both with `npm run store-art`
 
