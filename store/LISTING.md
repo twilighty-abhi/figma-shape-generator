@@ -42,7 +42,16 @@ shapes, generator, vector, stickers, scatter, background, illustration, decorati
 
 ## Assets
 - Icon (128 × 128): `store/icon.png` (the shape cluster; alternatives in `store/icon-options/`, regenerate with `npm run store-icons`)
-- Cover / thumbnail (1920 × 1080): `store/cover.png`
+- Thumbnail (1920 × 1080): `store/thumbnail.png` (same as `store/slides/01-hero.png`)
+- Carousel images (1920 × 1080), upload in this order:
+  1. `store/slides/01-hero.png` — plugin UI + title
+  2. `store/slides/02-all-shapes.png` — all 42 shapes by group
+  3. `store/slides/03-scatter.png` — scatter into a poster frame
+  4. `store/slides/04-edit-anytime.png` — re-edit a shape on canvas
+  5. `store/slides/05-document-colors.png` — styles & variables
+  6. `store/slides/06-made-with.png` — example uses
+- Regenerate slides with `npm run store-slides` (uses real UI screenshots)
+- Older alternative cover: `store/cover.png`
 - Regenerate both with `npm run store-art`
 
 ## Support contact

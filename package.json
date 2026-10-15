@@ -11,6 +11,7 @@
     "release": "npm test && node build.js",
     "sheet": "node test/sheet.js test/sheet.html",
     "store-art": "node store/render.js",
-    "store-icons": "node store/icons.js"
+    "store-icons": "node store/icons.js",
+    "store-slides": "node build.js && node store/slides.js"
   }
 }
